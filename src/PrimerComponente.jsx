@@ -11,9 +11,16 @@ const fecha = new Date()
 // para pasar un objeto hay que usar JSON.stringify
 export const PrimerComponente = () => {
     return (
-      <div>
-        <h1>{ JSON.stringify(objeto) }</h1>
-      </div>
+        // Fragmento (debe de estar dentro de un padre)
+      <>
+        <h1>variables en JSX</h1>
+        <h4> Variable tipo String:</h4> <p> {string}</p>
+        <h4> Variable tipo numero:</h4> <p> {numero}</p>
+        <h4> Variable tipo array:</h4> <p> {array}</p>
+        <h4> Variable tipo boolean:</h4> <p> {boolean}</p>
+        <h4> Variable tipo funcion:</h4> <p> {string}</p>
+        <h4> Variable tipo string:</h4> <p> {funcion()}</p>
+      </>
     );
   };
   
