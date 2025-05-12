@@ -1,3 +1,5 @@
+import "./PrimerComponente.css"
+
 const string = "esto es un texto";
 const numero = 123;
 const array = ["curso de react", "youtube", 4];
