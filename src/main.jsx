@@ -5,6 +5,6 @@ import './styles.css';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <PrimerComponente />
+    <PrimerComponente titulo="Esta seccion es de props"/>
   </StrictMode>
 );
